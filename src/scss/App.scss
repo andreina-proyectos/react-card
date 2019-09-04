@@ -24,12 +24,21 @@
 
 .App-header {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__avatar {
   border-radius: 50%;
   width: 150px;
   margin-right: 20px;
+}
+
+.main__more-info {
+  display: flex;
+  justify-content: space-between;
+  margin:10px;
 }
 
 .main__content {
