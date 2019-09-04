@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
+  font-family: ‘Roboto’, sans-serif;
+  padding: 20px;
+}
+
+.App-card {
+  background: #642B73;
+  background: linear-gradient(to bottom, #C6426E, #642B73);
+  max-width: 428px;
+  max-height: 477px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.322);
+  box-shadow: 10px 6px 6px 6px rgba(0, 0, 0, 0.253);
+  color:white;
+}
+
+.App-header {
+  display: flex;
+}
+
+.card__avatar {
+  border-radius: 50%;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.more-info__link {
+  text-decoration: none;
+  color: aquamarine;
+}
