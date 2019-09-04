@@ -5,7 +5,6 @@ import './scss/App.scss';
 function App() {
   return (
     <div className="App">
-
       <div className="App-card">
 
       <header className="App-header">
@@ -26,7 +25,7 @@ function App() {
         </p>
 
         <div className="main__more-info">
-            <a href="#link" className="more-info__link">
+            <a target="_blank" href="https://www.youtube.com/watch?v=mAGyQ5Rmz7o" className="more-info__link">
               Leer más...
             </a>
             <div className="likes">

@@ -1,9 +1,14 @@
+* {
+  font-family: 'Muli', sans-serif;
+}
+
 .App {
   display: flex;
   justify-content: center;
   background-color: #f6f6f6;
   font-family: ‘Roboto’, sans-serif;
   padding: 20px;
+  margin-top:50px;
 }
 
 .App-card {
@@ -27,7 +32,16 @@
   margin-right: 20px;
 }
 
+.main__content {
+  text-align: center;
+}
+
 .more-info__link {
   text-decoration: none;
   color: aquamarine;
+  margin:10px;
+}
+
+.likes__number {
+  margin:10px;
 }
