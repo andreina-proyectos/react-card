@@ -1,17 +1,16 @@
 import React from 'react';
-import kyaryPhoto from '../images/kyary2.jpg';
 
 class HeaderCard extends React.Component {
   render () {
     return(
       <header className="App-header">
-      <img src={kyaryPhoto} alt="kyary user profile" className="card__avatar"/>
+       <img src={this.props.imgSrc} alt="kyary user profile" className="card__avatar"/>
       <div className="card__info">
         <h1 className="card__info-user-name">
           {this.props.userName}
         </h1>
         <p className="card__info-date">
-         Hola! Hoy es 4 de Septiembre del 2019
+         {this.props.date}
         </p>
       </div>
     </header>
